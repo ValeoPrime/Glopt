@@ -1,2 +1,26 @@
 .map
     min-height: 500px
+    position: relative
+    &__descr
+        width: 330px
+        height: 160px
+        padding: 28px 50px
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+        background: url('../img/bg/message__bg.png') center center/cover no-repeat
+        color: #3a3a3a
+        font-family: "Roboto Light"
+        font-size: 14px
+        font-weight: 300
+        line-height: 20px
+        z-index: 1
+        span
+            color: $maincolor
+            font-family: "Roboto - Bold"
+            font-size: 16px
+            font-weight: 700
+        a
+            color: $maincolor
+            text-decoration: underline
